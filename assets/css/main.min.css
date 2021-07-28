@@ -1,0 +1,37 @@
+.ajax-loader{display:none !important}
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip{position:absolute;left:0;right:0;top:100%;font-size:14px;display:block;padding-top:15px;-webkit-filter:opacity(0.9999);-webkit-text-stroke:.35px}
+.wpcf7-response-output{display:none !important}
+.lt-pagination__item--prev,.lt-pagination__item--next{display:none !important}
+.breadcrumbs{text-align:left}
+.breadcrumbs span{color:rgba(255,255,255,0.6);letter-spacing:.02em;text-transform:uppercase;font-size:16px;display:inline-block;line-height:19px}
+.breadcrumbs span a{color:#fff}
+.breadcrumbs span a span{letter-spacing:.02em;text-transform:uppercase;font-size:16px;line-height:19px;color:#fff;position:relative;margin-right:40px}
+.breadcrumbs span a span::after{content:'/';display:inline-block;position:absolute;right:-26px;color:#d3ab75}
+.benefits_hide{margin-top:150px;margin-top:70px}
+.services_hide{margin-top:200px;margin-top:70px}
+.our-projects_hide{margin-top:200px;margin-top:70px}
+.cookies-section{position:fixed;left:0;right:0;bottom:0;background:#031722;z-index:99;color:#fff;padding:36px 0;display:none}
+.cookies-section .close-cookies{position:absolute;right:20px;top:20px;cursor:pointer}
+.cookies-section__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.cookies-section__wrapper .descrwrap{font-weight:900;font-size:28px;line-height:28px;letter-spacing:.02em;color:#fff;font-family:'Akrobat-extrabold sans-serif'}
+.cookies-section__wrapper .descrwrap p{margin-bottom:0}
+.cookies-section .cookies__more{font-weight:500;font-size:18px;line-height:22px;text-align:center;letter-spacing:.02em;text-transform:uppercase;color:#d3ab75;font-family:'Akrobat sans-serif'}
+.page__content{padding:40px 0}
+.page__content .page__title{margin-bottom:80px;color:#031722;text-shadow:none}
+.page__content .entry-content h1,.page__content .entry-content h2,.page__content .entry-content h3,.page__content .entry-content h4,.page__content .entry-content h5,.page__content .entry-content h6{margin-bottom:20px;margin-top:35px}
+@media(max-width:1600px){.cookies-section__wrapper .descrwrap{font-size:22px}
+}@media(max-width:1200px){.cookies-section__wrapper .descrwrap{font-size:20px}
+}@media(max-width:991.8px){.benefits_hide{margin-top:140px;margin-top:70px}
+.services_hide{margin-top:140px;margin-top:70px}
+.our-projects_hide{margin-top:140px;margin-top:70px}
+.cookies-section .cookies__more{font-size:16px}
+}@media(max-width:991px){.cookies-section .close-cookies{top:10px;right:10px}
+.cookies-section__wrapper .descrwrap{font-size:18px;line-height:20px}
+}@media(max-width:767px){.cookies-section{padding:60px 0 50px 0}
+.cookies-section__wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.cookies-section__wrapper .descrwrap{text-align:center;margin-bottom:20px}
+.cookies-section .cookies__more{margin-bottom:20px}
+}@media(max-width:575.8px){.benefits_hide{margin-top:70px;margin-top:0}
+.services_hide{margin-top:140px;margin-top:0}
+.our-projects_hide{margin-top:100px;margin-top:00px}
+}
